@@ -1,0 +1,227 @@
+.icon__container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+.ant-input {
+  &::placeholder {
+    font-weight: 500;
+    font-size: 18;
+  }
+}
+.input__search {
+  height: 58px;
+  background: #f6f6f6 !important;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.input__itemForm {
+  height: 46px;
+  border-radius: 10px;
+}
+.card_ItemProduct {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease; /* Thêm hiệu ứng */
+
+  &:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Hiệu ứng hover */
+    transform: translateY(-5px); /* Hiệu ứng nâng thẻ khi hover */
+  }
+
+  .ant-card-body {
+    padding: 8px;
+  }
+}
+.card__ItemOrder {
+  border-radius: 10px;
+  margin-bottom: 16px;
+  .ant-card-head {
+    background: #ffd591;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 12px 24px;
+  }
+  .ant-card-body {
+    padding: 0 24px 12px 24px;
+  }
+}
+.card__Order {
+  border-radius: 10px;
+  .ant-card-body {
+    padding: 16px 12px;
+  }
+}
+.card_Detail {
+  border: none;
+  .ant-card-body {
+    padding: 0px;
+  }
+}
+.button__Item {
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #ffd591;
+}
+
+.collaps__ItemCustom {
+  border: none;
+  background: none;
+  padding-bottom: 30px;
+  .ant-collapse-header {
+    padding-left: 0 !important;
+  }
+  .ant-collapse-header-text {
+    font-size: 15px;
+  }
+  .ant-collapse-item-active {
+    .ant-collapse-expand-icon,
+    .ant-collapse-header-text {
+      color: var(--primary-color);
+      font-weight: 500;
+    }
+  }
+}
+.collapse__Guide {
+  padding-bottom: 12px !important;
+  .ant-collapse-header {
+    flex-direction: row-reverse;
+    .ant-collapse-expand-icon {
+      padding-inline-end: 0px !important;
+    }
+  }
+  .ant-collapse-content-box {
+    background-color: #faecd6;
+  }
+}
+.ant-form-item {
+  margin-bottom: 18px;
+  &-label {
+    height: 28px;
+    font-weight: 500;
+  }
+  &-control {
+    padding-top: 6px;
+  }
+}
+.ant-modal-content {
+  border-radius: 10px !important;
+}
+.tag__Item {
+  border-radius: 10px;
+  padding: 6px 15px;
+}
+
+.card__Category {
+  border-radius: 10px;
+}
+.card__ItemGuide {
+  border-radius: 10px;
+  .ant-card-head {
+    padding: 0px;
+    .ant-card-head-title {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+  .ant-card-body {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px;
+    padding: 0px;
+    min-height: 180px;
+  }
+}
+.drawer__item {
+  .ant-drawer-header {
+    padding: 14px 18px;
+    background: var(--primary-color);
+    &-title {
+      flex-direction: row-reverse;
+    }
+  }
+  .ant-drawer-body {
+    padding: 24px 12px;
+  }
+}
+.menu__item {
+  border: none !important;
+  .ant-menu-item {
+    padding: 10px !important;
+    border-radius: 10px;
+    margin-block: 8px;
+    .ant-menu-title-content {
+      font-size: 15px;
+    }
+  }
+  .ant-menu-submenu-title {
+    padding: 10px !important;
+  }
+}
+.steps__ItemGuide {
+  .ant-steps-item-container {
+    height: 60px;
+  }
+  .ant-steps-item:last-child .ant-steps-item-container {
+    height: 10px; /* Đặt chiều cao mặc định cho item cuối cùng */
+  }
+}
+
+.div__ItemCustom {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.ant-progress-inner {
+  height: 4px !important;
+}
+.imageUser {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px 0px rgba(48, 72, 78, 0.25);
+}
+
+/////
+/// 
+
+.footerCustom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height: 66px;
+  padding: 0 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  &-item{
+
+  }
+  &-active{
+    color: var(--primary-color);
+  }
+  &-label{
+    font-size: 11px;
+  }
+}
+.iconFooter{
+  justify-content: center !important;
+}
+.flash-sale{
+  margin:0 -16px !important;
+}
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}

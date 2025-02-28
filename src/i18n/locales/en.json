@@ -1,0 +1,19 @@
+{
+    "home": {
+      "title": "Welcome to our website",
+      "description": "This is an internationalized Next.js application",
+      "welcome": "Hello, {name}!"
+    },
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "product":"Product",
+      "service":"Service"
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "language": "Language"
+    }
+  }

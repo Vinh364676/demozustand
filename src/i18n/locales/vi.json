@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Chào mừng đến với trang web của chúng tôi",
+    "description": "Đây là ứng dụng Next.js đa ngôn ngữ",
+    "welcome": "Xin chào, {name}!"
+  },
+  "navigation": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "product": "Sản phẩm",
+    "service": "Dịch vụ"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "language": "Ngôn ngữ"
+  }
+}
